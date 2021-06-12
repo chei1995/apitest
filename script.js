@@ -55,9 +55,9 @@
                 .then(function(response) {
                     console.log(response);
                     alert(response.data.message);
-                    if (response.data.message == "登入成功") {
-                        settime()
-                    }
+                    //if (response.data.message == "登入成功") {
+                    //    settime()
+                    //}
                 })
                 .catch(function(error) {
                     console.log(error);
